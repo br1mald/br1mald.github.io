@@ -51,10 +51,6 @@ body h3 {
     margin: 0;
 }
 
-.toggle-button:hover {
-    background-color: whitesmoke;
-    border-radius: 15%;
-}
 .toggle-button.rotated {
     background-color: none;
     transform: rotate(90deg);
@@ -190,5 +186,26 @@ a {
     li,
     span {
         font-size: 19px;
+    }
+
+    .toggle-button:hover {
+        background-color: whitesmoke;
+        border-radius: 15%;
+    }
+
+    .blocks-of-two {
+        gap: 50px;
+    }
+
+    .parcours,
+    .bio {
+        width: 400px;
+        justify-self: center;
+    }
+
+    .contact,
+    .competences {
+        width: 400px;
+        justify-self: center;
     }
 }
